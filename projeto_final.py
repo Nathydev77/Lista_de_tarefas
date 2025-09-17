@@ -53,9 +53,9 @@ while continuar:
         if not tarefa.isnumeric():
             print("Número inválido! Tente Novamente. ")
         elif int (tarefa) > len(lista_de_tarefas):
-        print("Número inválido! Tente Novamente. ")
+            print("Número inválido! Tente Novamente. ")
         elif int (tarefa) <= 0:
-        print("Número inválido! Tente Novamente. ")
+            print("Número inválido! Tente Novamente. ")
         else:  
             deletar_tarefa(lista_de_tarefas, int(tarefa))
     elif opcao  == "4":
@@ -67,5 +67,6 @@ while continuar:
         
 
     
+
 
 

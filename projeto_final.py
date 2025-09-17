@@ -44,7 +44,7 @@ while continuar:
 
     if opcao == "1": 
         tarefa  =  input( 'Insira uma nova tarefa: ')
-        lista_de_tarefas = adicionar_tarefa(lista_de_tarefas, tarefa)lista_de_tarefas
+        lista_de_tarefas = adicionar_tarefa(lista_de_tarefas, tarefa)
     elif opcao == "2":
         listar_tarefas(lista_de_tarefas)
     elif opcao == "3":
@@ -67,6 +67,7 @@ while continuar:
         
 
     
+
 
 
 
